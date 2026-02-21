@@ -1,0 +1,165 @@
+*{
+    font-family:monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    width: 1366px;
+    justify-content: center;
+}
+header{
+    width: 1366px;
+    height: 150px;
+    background-color: #BD1904;
+    margin: 0 auto;
+}
+.logo{
+    margin: 20px;
+    margin-left: 33px;
+    text-align:left;
+    float:left;
+    text-align: center;
+}
+.location{
+  display:flex ;
+  align-items:center; 
+  justify-content: flex-end;
+  text-align: end;
+}
+.location .dir{
+  font-size: 17.5px;
+  font-weight:500;
+}
+.it{
+  padding: 2px;
+  border-radius: 1px;
+  text-align: end;
+  font-size: 20px;
+  font-weight: 1000;
+  
+}
+h1{
+    font-size: 36px;
+    font-family: "DynaPuff", system-ui;
+}
+header h3{
+    text-align: right;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    width: 1366px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.barranv ul{
+  width:1366px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.barranv ul li{
+  background-color: #BD1904;
+  list-style: none;
+  padding: 20px;
+  margin: 0 20px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width:  180px;
+  height: 60px;
+  font-weight:600;
+}
+.barranv ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: x-large;
+}
+main{
+  width:1366px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card{
+  margin: 35px 35px 15px 35px;
+  padding: 20px 30px;
+  width: 90%;
+  height: 500px;
+  background-color: #BD1904;
+  border-radius: 25px;
+  border: 5px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+article div img{
+  width: 40px;
+
+}
+.card article{
+  align-items: stretch;
+  height: 350px;
+  width: 400px;
+}
+.pers div{
+  padding: 20px;
+  height: 400px;
+}
+article div{
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px;
+  border: 3px solid black;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+article .redes{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding:0 0 100px;
+  flex-direction: column;
+}
+article .redes div{
+  width: auto;
+  display: flex;
+  border: 0;
+  margin: 0 0 -25px ;
+  background-color: #ffffff00;
+}
+article .fecha{
+  padding: 10px;
+  justify-content: start;
+}
+article .nombre, .fecha{
+  height: 60px;
+}
+.im{
+  margin-top: 40px;
+  height: 500px;
+  width: 500px;
+ justify-content: center;
+ display: flex;
+}
+footer{
+  height: 150px;
+  width: 1366px;
+  background-color: #000;
+}
+footer p{
+  text-align: center;
+  font-family: "Jersey 15", sans-serif;
+  color: #fff;
+}
